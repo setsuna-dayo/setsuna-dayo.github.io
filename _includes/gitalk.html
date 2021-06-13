@@ -12,7 +12,7 @@
         repo: 'setsuna-dayo.github.io',
         owner: 'setsuna-dayo',
         admin: ['setsuna-dayo'],
-        id: md5(page.title),
+        id: md5(location.pathname),
         
     });
     gitalk.render('gitalk-container');
