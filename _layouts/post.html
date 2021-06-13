@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+
 <header>
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
@@ -14,6 +17,25 @@ layout: default
   </div>
 
   <h2>讨论区</h2>
-  {% include gitalk.html %}
+  <!--{% include gitalk.html %}-->
   <!--{% include related_posts.html %}-->
 </div>
+
+<script type="text/javascript" src="/assets/js/md5.min.js"></script>
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+ 
+    // gitalk的主要参数
+        clientID: 'aa248b009666b8c15e68',
+        clientSecret: 'e9fbaaa1a50e7bcf69a08e6c0fd55a7148c45d33',
+        repo: 'setsuna-dayo.github.io',
+        owner: 'setsuna-dayo',
+        admin: ['setsuna-dayo'],
+        id: md5(page.title),
+        
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
+
