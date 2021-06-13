@@ -20,17 +20,18 @@ layout: default
 </div>
 
 <div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
 var gitment = new Gitment({
   //id: '页面 ID', // 可选。默认为 location.href
   owner: 'setsuna-dayo',
   repo: 'setsuna-dayo.github.io',
-  oauth: {
-    client_id: 'aa248b009666b8c15e68',
-    client_secret: 'e9fbaaa1a50e7bcf69a08e6c0fd55a7148c45d33',
-  },
+  clientID: 'aa248b009666b8c15e68',
+  clientSecret: 'e9fbaaa1a50e7bcf69a08e6c0fd55a7148c45d33',
+  admin: ['setsuna-dayo'],
+  id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false
 })
 gitment.render('container')
 </script>
