@@ -17,6 +17,21 @@ layout: default
   </div>
 
   <h2>讨论区</h2>
-  {% include gitalk.html %}
   <!--{% include related_posts.html %} -->
 </div>
+
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  //id: '页面 ID', // 可选。默认为 location.href
+  owner: 'setsuna-dayo',
+  repo: 'setsuna-dayo.github.io',
+  oauth: {
+    client_id: 'aa248b009666b8c15e68',
+    client_secret: 'e9fbaaa1a50e7bcf69a08e6c0fd55a7148c45d33',
+  },
+})
+gitment.render('container')
+</script>
