@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            海边的茶屋
-tagline:          '🍵'
-description:      '一些描述性语句.'
+title:            海边茶屋
+tagline:          ''
+description:      '欢迎！这是一个我们写字的地方。🍵'
 url:              https://setsuna-dayo.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
