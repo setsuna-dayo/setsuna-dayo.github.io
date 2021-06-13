@@ -34,5 +34,10 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 
-disqus:
-  shortname: setsuna-dayo
+gitalk:
+  enable: true
+  clientID: 'aa248b009666b8c15e68',
+  clientSecret: 'e9fbaaa1a50e7bcf69a08e6c0fd55a7148c45d33',
+  repo: 'setsuna-dayo.github.io',
+  owner: 'setsuna-dayo',
+  id: md5(location.pathname),
