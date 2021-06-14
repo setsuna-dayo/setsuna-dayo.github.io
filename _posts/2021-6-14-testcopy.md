@@ -2,7 +2,8 @@
 layout: post
 title: 测试:测试2
 excerpt_separator:  <!--more-->
-category: 2021下半年
+category: 
+  - 2021下半年
 tags:
   - 测试
   - 测试2
