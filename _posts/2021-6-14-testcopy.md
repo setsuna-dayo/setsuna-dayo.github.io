@@ -3,7 +3,10 @@ layout: post
 title: 测试:测试2
 excerpt_separator:  <!--more-->
 category: 2021下半年
-tags: 测试 测试时
+tags:
+  - 测试
+  - 测试2
+last_modified_at: 2021-06-16T15:33:37-04:00
 ---
 
 测试文本。
