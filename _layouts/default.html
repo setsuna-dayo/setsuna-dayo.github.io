@@ -3,6 +3,7 @@
 
   {% include head.html %}
 
+  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"></body>
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
     {% include sidebar.html %}
