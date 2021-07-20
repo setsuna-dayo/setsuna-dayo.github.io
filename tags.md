@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 标签/Tags
+title: 标签索引
 sidebar_link: true
 ---
 
