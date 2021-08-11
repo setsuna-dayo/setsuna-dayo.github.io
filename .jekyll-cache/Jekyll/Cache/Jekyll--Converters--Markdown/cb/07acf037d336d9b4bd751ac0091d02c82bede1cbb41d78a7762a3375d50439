@@ -1,4 +1,4 @@
-I"e(<!-- See https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+I"z)<!-- See https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
 <!-- With added pipe to handle lack of sort_natural -->
 
 <!-- site_tags: 深夜随笔|深夜随笔,我们一起走过|我们一起走过,热点时评|热点时评,动物王国|动物王国,笔随心动|笔随心动,未分类|未分类,左右互搏|左右互搏 -->
@@ -29,7 +29,7 @@
     
     <a href="#未分类" class="tag-link">
       <span class="tag-name">未分类</span>
-      <span class="tag-count">16</span>
+      <span class="tag-count">17</span>
     </a>
     
     
@@ -138,6 +138,15 @@
     <div id="未分类" class="posts-for-tag">
       <h2>未分类</h2>
       <ul class="posts-list">
+        
+          <li>
+            <h3>
+              <a href="/2021%E4%B8%8A%E5%8D%8A%E5%B9%B4/2021/01/28/kj2.html">
+                孤身奋起战敌寇，挥洒热血护长空
+                <small>28 Jan 2021</small>
+              </a>
+            </h3>
+          </li>
         
           <li>
             <h3>
