@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            海边茶屋
 tagline:          ''
-description:      '作者 航天小英雄 欢迎你的到来。🍵'
+description:      '作者：航天小英雄 欢迎你的到来。🍵'
 url:              https://setsuna-dayo.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
